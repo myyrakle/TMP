@@ -1,3 +1,3 @@
-# TMP
+# Template Meta Programming
 
-Template Meta Programming
+- Factorial

@@ -7,7 +7,7 @@ struct Fibonacci
   };
 };
 
-template <int n>
+template <>
 struct Fibonacci<1>
 {
   enum
@@ -16,7 +16,7 @@ struct Fibonacci<1>
   };
 };
 
-template <int n>
+template <>
 struct Fibonacci<0>
 {
   enum
@@ -29,5 +29,5 @@ struct Fibonacci<0>
 template <int n>
 int fibonacci()
 {
-  return Fibanacci<n>::value;
+  return Fibonacci<n>::value;
 }
